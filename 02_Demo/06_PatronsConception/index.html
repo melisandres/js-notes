@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <script type="module" src="assets/js/main.js"></script>
+    <title>Exercice </title>
+</head>
+
+<body data-librairie>
+    <nav>
+        <div class="logo">Librairie Lacasse</div>
+
+        <i class="panier-modal-btn" data-panier-btn data-o>
+            <i class="fa fa-panier-cart fa-cart-shopping fa-2x" style="color: #ffffff;"></i>
+
+            <div class="panier-modal invisible" data-panier-modal>
+                <header>
+                    <p>Panier achat</p>
+                </header>
+                <section>
+                    <div data-liste-panier>
+
+                    </div>
+                    <!-- <div class="item">
+                        <small>titre</small>
+                        <div class="btn">
+                            <i class="fa fa-trash" style="color: #ffffff;"></i>
+                        </div>
+                        <div class="prix">30$</div>
+                    </div> -->
+                    <!-- <div class="sous-total">90$</div>
+                    <div class="taxes">10$</div>
+                    <div class="total">100$</div> -->
+                </section>
+            </div>
+        </i>
+
+
+    </nav>
+    <main>
+        <h1>Exercice 6 - Patrons de conception</h1>
+        <div>
+            <h2>Liste de livre</h2>
+            <div data-liste-filtre>
+                <p data-filtre-categorie="nouveaute">Nouveauté</p>
+                <p data-filtre-categorie="BD, Jeunesse, Humour">BD, Jeunesse, Humour</p>
+            </div>
+            <div class="liste" data-liste>
+                <!-- <div class="item">
+                    <h3>titre</h3>
+                    <div class="btn"><p>Ajouter au panier</p></div>
+                </div> -->
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

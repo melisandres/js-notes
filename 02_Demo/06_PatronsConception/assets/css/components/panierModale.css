@@ -1,0 +1,29 @@
+.panier-modal-btn {
+    position: relative;
+    padding: var(--md-space);
+    cursor: pointer;
+}
+.panier-modal {
+    position: absolute;
+    top: 100%;
+    right: 0;
+
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+
+    background-color: var(--coul-principale-moyen-bleu);
+    padding: var(--xl-space);
+    box-shadow: 0 0 5px 5px var(--coul-noir);
+    border-radius: var(--sm-space);
+}
+
+.panier-modal.invisible {
+    display: none;
+}
+
+.panier-modal [data-liste-panier] .item {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
